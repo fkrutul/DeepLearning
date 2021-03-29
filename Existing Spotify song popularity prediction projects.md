@@ -80,6 +80,14 @@ Our goal was to see how musical features themselves can predict a song’s popul
 
 Lastly, we built a Flask App with HTML user interface such that a user can manually input the audio features of their own original song (i.e. a song that does not exist in our 19000 song data set) and predict its popularity. The UI has two components. First, a user can look up familiar songs using a search feature that connects to a Spotify API; the API will then return the 13 musical attributes of the known song. This allows the user to become familiar with the attributes. Using this information, the user can then input their estimates for an unknown or original song for each of the 13 attributes. These values are then run through our model and the predicted popularity of the song is returned to the user.
 
+# Spotify Song Popularity Prediction
+Python notebook using data from Spotify Tracks DB
+
+https://www.kaggle.com/huanntran100/spotify-song-popularity-prediction
+
+As I am in the initial stages of developing my data science and singer-songwriting careers, I thought it would be appropriate to bring both fields together to inform my analysis and songwriting skills. For this short project, I will be predicting the popularity of songs based purely on song metrics such as key, dancibility, and acousticness. Year, artist, era, and genre will not be included.
+
+
 # Billboard Hot 100 Hit Prediction
 
 🎶  Predicting Billboard's Year-End Hot 100 Songs using audio features from Spotify and lyrics from Musixmatch
