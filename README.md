@@ -22,7 +22,7 @@ model = models.load_model("<latest h5 file>.h5")
 
 ## Dataset Creation
 
-We have created our own [precompiled spectrogram dataset](https://drive.google.com/file/d/18GHf32nXBpiZzEwJtiHGvpKYYgY_Tc9Z/view?usp=sharing) consisting of 500 spectrograms of 10 genres, but if you choose to recreate this project yourself, you may follow these steps. We do not accept liability for your implementation of downloading music from youtube for this project. In order to comply with copyright claims on the songs, original audio files are deleted upon spectrogram creation in a later step, though it is advised for you to use a VPN while completing this step.
+We have created our own [precompiled spectrogram dataset](https://drive.google.com/file/d/1CL6pn51hBdyqzJmRe89--YmcErdqEVXA/view?usp=sharing) consisting of 500 spectrograms of 10 genres, but if you choose to recreate this project yourself, you may follow these steps. We do not accept liability for your implementation of downloading music from youtube for this project. In order to comply with copyright claims on the songs, original audio files are deleted upon spectrogram creation in a later step, though it is advised for you to use a VPN while completing this step.
 
 Using the CMD tool [youtube-dl](https://github.com/ytdl-org/youtube-dl):
 
