@@ -14,7 +14,7 @@ We wanted to start with our own raw audio instead of downloading a precompiled d
 
 There are a series of steps taken to produce a model capable of predicting a genre classification for audio files. The first step is implementing binned FFT to create spectrograms of the songs. We chose to cut the songs into 30-second slices and train with the resulting spectrograms, omitting the upper-frequency register and also the first and last slices. Included also is a pre-trained network weight .h5 file.
 
-If you just want to run our implementation, you may skip the model.train cell in the notebook and instead upload the latest .h5 in the model.load cell.
+If you just want to run our implementation, you may skip the model.train cell in the notebook and instead upload the l[atest .h5](https://drive.google.com/file/d/19oqKUd85FCipYzG2ev2K7PB4OMrAU0J1/view?usp=sharing) in the model.load cell.
 ```python
 model = models.load_model("<latest h5 file>.h5")
 ```
@@ -53,7 +53,7 @@ We chose 30 seconds as our base length, you may find better results using a diff
 
 
 ## Usage
-SOMEBODY ELSE WRITE THIS PART
+In order to train the model on your own spectogra data, follow the above process for dataset creation. Afterwards, ensure that your main data folder is named "raw", and contains a list of folders named after your desired genres. Once this directory is placed in the same folder as the notebook, you can go through all of the cells in order to go from data ingestion to full prediction.
 
 
 
