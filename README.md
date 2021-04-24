@@ -67,3 +67,4 @@ song_title = "Michael Jackson - Billie Jean.wav"
 
 Running the final cells will generate a series of images with the corresponding genre as titles and the most common genre as the master title of the output. Our model is not trained on Pop or Country music, so it is interesting to drop in songs of one of those classes.
  
+** NOTE: The chord graph does not display in the jupyter notebook unless the kernel is running, but images can be found within our report **
