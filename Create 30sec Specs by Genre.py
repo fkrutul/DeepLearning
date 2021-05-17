@@ -2,9 +2,6 @@
 """
 Created on Mon Apr 5 14:23:52 2021
 
-@author: Trenton Tidwell
-
-
 This program uses a nested directory of wav files to create 30 second spectrograms, 
 and save them in a pre-created, similaryly named nested directory.
 The way this was intended was to have a master directory containing only folders with genre names.
