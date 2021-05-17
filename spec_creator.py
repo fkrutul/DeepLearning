@@ -2,10 +2,6 @@
 """
 Created on Mon Apr 5 14:23:52 2021
 
-@author: Trenton Tidwell
-
-
-
 The way this was intended was to import a single song as type ".wav".
 
 Prefered image size should be changed in the "my_img_size" variable.
