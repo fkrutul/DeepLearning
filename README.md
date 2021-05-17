@@ -53,7 +53,7 @@ We chose 30 seconds as our base length, you may find better results using a diff
 
 
 ## Usage
-In order to train the model on your own spectogra data, follow the above process for dataset creation. Afterwards, ensure that your main data folder is named "raw", and contains a list of folders named after your desired genres. Once this directory is placed in the same folder as the notebook, you can go through all of the cells in order to go from data ingestion to full prediction.
+In order to train the model on your own spectrogram data, follow the above process for dataset creation. Afterwards, ensure that your main data folder is named "raw", and contains a list of folders named after your desired genres. Once this directory is placed in the same folder as the notebook, you can go through all of the cells in order to go from data ingestion to full prediction.
 
 
 
